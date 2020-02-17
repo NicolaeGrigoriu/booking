@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f69af0308b34bea5051f21e22d77b993",
+    "content-hash": "2a05d987924814ce6f1b9dfae1665631",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1704,6 +1704,28 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "inleadmedia/opening_hours",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:inleadmedia/opening_hours.git",
+                "reference": "3580b1b5e1668a8fc7a569f2f3f96f60e8b4453b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inleadmedia/opening_hours/zipball/3580b1b5e1668a8fc7a569f2f3f96f60e8b4453b",
+                "reference": "3580b1b5e1668a8fc7a569f2f3f96f60e8b4453b",
+                "shasum": ""
+            },
+            "type": "drupal-custom-module",
+            "description": "Provides similar look and feel of Opening Hours Drupal 7 counterpart.",
+            "support": {
+                "source": "https://github.com/inleadmedia/opening_hours/tree/development",
+                "issues": "https://github.com/inleadmedia/opening_hours/issues"
+            },
+            "time": "2020-02-03T11:33:02+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -3948,7 +3970,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "inleadmedia/opening_hours": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
