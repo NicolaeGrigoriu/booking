@@ -1,0 +1,21 @@
+uuid: ff7ccc09-97cf-4eb5-a35d-15759405ebaf
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.field_staff_phone
+field_name: field_staff_phone
+entity_type: profile
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

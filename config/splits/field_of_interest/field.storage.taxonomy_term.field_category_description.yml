@@ -1,0 +1,19 @@
+uuid: 6e7a6135-db01-4df5-86be-c106f6e208f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - text
+id: taxonomy_term.field_category_description
+field_name: field_category_description
+entity_type: taxonomy_term
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 528c5c72-a4cb-421b-934d-834514b891e9
+langcode: en
+status: true
+dependencies: {  }
+id: field_of_interest
+label: 'Field of interest'
+description: ''
+folder: ../config/splits/field_of_interest
+module: {  }
+theme: {  }
+blacklist:
+  - core.entity_form_display.taxonomy_term.category.default
+  - core.entity_view_display.taxonomy_term.category.default
+  - field.field.taxonomy_term.category.field_category_description
+  - field.field.taxonomy_term.category.field_category_image
+  - field.storage.taxonomy_term.field_category_description
+  - field.storage.taxonomy_term.field_category_image
+  - taxonomy.vocabulary.category
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

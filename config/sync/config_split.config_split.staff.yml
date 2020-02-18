@@ -1,0 +1,29 @@
+uuid: 9e70f962-4f8d-48e8-a7c5-2f712a0c8f61
+langcode: en
+status: true
+dependencies: {  }
+id: staff
+label: Staff
+description: ''
+folder: ../config/splits/staff
+module: {  }
+theme: {  }
+blacklist:
+  - core.entity_view_display.profile.staff.default
+  - field.field.profile.staff.field_staff_category
+  - field.field.profile.staff.field_staff_forename
+  - field.field.profile.staff.field_staff_image
+  - field.field.profile.staff.field_staff_phone
+  - field.field.profile.staff.field_staff_surname
+  - field.storage.profile.field_staff_category
+  - field.storage.profile.field_staff_forename
+  - field.storage.profile.field_staff_image
+  - field.storage.profile.field_staff_phone
+  - field.storage.profile.field_staff_surname
+  - profile.type.staff
+  - system.action.user_remove_role_action.staff
+  - user.role.staff
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

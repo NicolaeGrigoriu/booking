@@ -1,0 +1,63 @@
+uuid: 16e14e93-864e-4bb5-b3df-ae9aea191a9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.staff.field_staff_category
+    - field.field.profile.staff.field_staff_forename
+    - field.field.profile.staff.field_staff_image
+    - field.field.profile.staff.field_staff_phone
+    - field.field.profile.staff.field_staff_surname
+    - image.style.thumbnail
+    - profile.type.staff
+  module:
+    - image
+id: profile.staff.default
+targetEntityType: profile
+bundle: staff
+mode: default
+content:
+  field_staff_category:
+    weight: 30
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_staff_forename:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_staff_image:
+    weight: 28
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_staff_phone:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_staff_surname:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  is_default: true
